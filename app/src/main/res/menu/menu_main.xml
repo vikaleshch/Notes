@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="by.iit.notes.NewNoteActivity">
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        android:actionLayout="@layout/activity_new_note"
+        app:showAsAction="ifRoom"/>
+</menu>
